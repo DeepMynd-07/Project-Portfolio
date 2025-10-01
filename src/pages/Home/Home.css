@@ -1,0 +1,37 @@
+.home {
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+.hero {
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.hero h1 {
+    font-size: max(2vw,36px);
+}
+.tables-container {
+  display: flex;          /* side by side */
+  gap: 20px;              /* space between tables */
+  justify-content: center; /* center the tables horizontally */
+  flex-wrap: wrap;        /* allows wrapping on small screens */
+}
+
+.stocks-table, .realestate-table {
+  flex: 1;                /* take equal width */
+  max-width: 45%;       /* limit width for each table */
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.196);
+}
+
+.table-layout {
+    display: grid;
+    padding: 15px 20px;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}

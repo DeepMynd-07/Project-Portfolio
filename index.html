@@ -1,29 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>📈 Stock Portfolio Tracker</title>
-  <link rel="stylesheet" href="./styles.css">
-<script src="script.js"></script>
-</head>
-
-<body>
-  <!-- heading -->
-  <div class="header">
-    <h1>📈 Stock Portfolio Tracker</h1>
-  </div>
-
-  <!-- input section -->
-  <div class="input-box">
-    <input type="text" id="stockInput" placeholder="Stock name / Ticker Symbol" />
-    <input type="number" id="avgPriceInput" placeholder="Average buy price" />
-    <input type="number" id="stockQuantity" placeholder="Buy quantity" />
-    <button onclick="addstock()">Add to portfolio</button>
-  </div>
-
-  <!-- stock cards will be shown here -->
-  <div class="card" id="stockCardContainer"></div>
-
-</body>
-</ht
-ml>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
